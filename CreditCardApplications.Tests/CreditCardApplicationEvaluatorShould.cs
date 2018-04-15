@@ -166,6 +166,7 @@ namespace CreditCardApplications.Tests
 
             mockValidator.SetupAllProperties();
             mockValidator.Setup(x => x.ServiceInformation.License.LicenseKey).Returns("OK");
+            mockValidator.SetupProperty(x => x.ValidationMode);
             //mockValidator.SetupProperty(x => x.ValidationMode);
 
             var sut = new CreditCardApplicationEvaluator(mockValidator.Object);
