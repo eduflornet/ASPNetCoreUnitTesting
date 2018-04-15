@@ -1,10 +1,12 @@
 # ASPNetCoreUnitTesting
-Performing unit tests using Moq, ASP.Net Core and XUnit.
+Performing unit tests using ASP.Net Core, Moq and XUnit.
 
 Interesting Topics: 
 MockBehavior.Strict, MockBehavior.Loose, 
 Using OutParameters, simulated versions with dependencies
 It.IsAny, It.IsInRange
+
+
 
 
 # References

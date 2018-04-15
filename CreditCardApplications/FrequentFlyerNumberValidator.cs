@@ -23,5 +23,28 @@ namespace CreditCardApplications
         {
             throw new NotImplementedException("For demo purposes");
         }
+
+        public IServiceInformation ServiceInformation
+        {
+            get
+            {
+                throw new NotImplementedException("For demo purposes");
+            }
+        }
+
+        // ChangeTracking
+        public ValidationMode ValidationMode
+        {
+            get => throw new NotImplementedException("For demo purposes");
+            set => throw new NotImplementedException("For demo purposes");
+        }
+
+        //public string LicenseKey
+        //{
+        //    get
+        //    {
+        //        throw new NotImplementedException("For demo purposes");
+        //    }
+        //}
     }
 }
